@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Maravanthe Beach",
-  description: "",
+
+  title:{
+    default:"Maravanthe Beach",
+    template:"%s | MB"
+  }
 };
 
 export default function RootLayout({
