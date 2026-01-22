@@ -3,7 +3,7 @@ import React from 'react'
 export default function notfound() {
   return (
     <div>
-    Not found
+   404 Not found
     </div>
   )
 }
