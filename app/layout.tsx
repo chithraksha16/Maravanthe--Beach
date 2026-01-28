@@ -17,7 +17,8 @@ export const metadata: Metadata = {
   title:{
     default:"Maravanthe Beach",
     template:"%s | MB"
-  }
+  },
+description:"Beach Website"
 };
 
 export default function RootLayout({
